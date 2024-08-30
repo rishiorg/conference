@@ -1,0 +1,237 @@
+@media (min-width: 1600px) {	
+    .py_3 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    #main_menu .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+    }
+    
+    @media (min-width: 768px) {	
+    .contact_person {
+        width: 90%;
+        margin-top: 0;
+    }
+    }
+    
+    @media (min-width: 992px) {
+    .pl_2 {
+        padding-left: 1.5rem;
+    }
+    .pr_2 {
+        padding-right: 1.5rem;
+    }
+    .container-xxl {
+        --bs-gutter-x: 5rem;
+    }
+    #main_menu .navbar-nav li.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .downlaod_list {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    }
+    
+    @media (min-width: 992px) and (max-width: 1199px) {
+    .container-xxl {
+        --bs-gutter-x: 1.5rem !important;
+    }
+    #main_menu .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+    .page-content {
+        margin-top: 125px;
+    }
+    }
+    
+    @media (max-width: 1199px) {
+    
+    }
+    
+    @media (max-width: 991px) {
+    header .navbar .navbar-toggler {
+        width: 50px;
+        height: 50px;
+        border-radius: 0;
+        border: 0;
+        background: #fff;
+        margin: 0 auto;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        box-shadow: none;
+        position: relative;
+        z-index: 9;
+    }
+    header .navbar .nav_menuss {
+        padding: 5px;
+    }
+    #main_menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: #000;
+        width: 0;
+        height: 100%;
+        display: block;
+        z-index: 99999;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+    #main_menu.show {
+        left: 0;
+        width: 100%;
+        max-width: 320px;
+        padding: 2rem;
+    }
+    #main_menu button.close_nav {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #fff;
+        background: transparent;
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+    #main_menu .navbar-nav li.nav-item {
+        margin: 0;
+    }
+    #main_menu .navbar-nav li.nav-item .dropdown-menu {
+        padding: 7px 0;
+    }
+    #main_menu .navbar-nav li.nav-item .dropdown-menu a.dropdown-item {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .registeration_fee .impdate_wrapper .col_inner {
+        padding: 2rem 1rem;
+    }
+    .mt_mobile {
+        margin-top: 2rem;
+    }
+    .aboutucrd_sec .bg_image {
+        position: relative;
+    }
+    .aboutucrd_sec img.bg_image_pos {
+        width: 100%;
+    }
+    .downlaod_list .download_item {
+        max-width: 280px;
+        margin: 0 auto 2rem;
+        text-align: center;
+    }
+    .delgate_item .dele_inner img {
+        height: auto;
+    }
+    }
+    
+    @media (max-width: 767px) {
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    .impdate_wrapper .mt_space .col_inner img {
+        width: 50px;
+        height: 50px;
+    }
+    .about_sec {
+        padding-top: 0;
+    }
+    .aboutucrd_sec .UCRD_content {
+        padding: 2rem 0;
+    }
+    .baner_owl .owl-nav button {
+        width: 40px;
+        height: 40px;
+    }
+    .baner_owl .baner_item {
+        min-height: 400px;
+    }
+    .submission_link .link_btn .button {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .submission_link {
+        margin-top: 1.5rem;
+    }
+    }
+    
+    @media (max-width: 575px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .py_3 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .button {
+        padding: 12px 10px;
+    }
+    header .navbar .navbar-brand .naac_logo img {
+        width: 70px;
+    }
+    header .navbar .navbar-brand img {
+        width: 110px;
+    }
+    header .navbar .navbar-brand .scholar_logo img {
+        width: 130px;
+    }
+    .baner_owl .baner_item .item_content h2 {
+        font-size: 20px;
+    }
+    .baner_owl .baner_item .item_content h2 br {
+        display: none;
+    }
+    .baner_owl .baner_item .organised_text {
+        font-size: 14px;
+    }
+    .baner_owl .baner_item .item_btns {
+        margin: 0;
+    }
+    .baner_owl .owl-nav {
+        display: none;
+    }
+    .baner_owl .owl-dots {
+        display: block !important;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 10px;;
+    }
+    .impdate_wrapper .mt_space {
+        margin-top: 1rem;
+    }
+    .baner_owl .baner_item .item_btns .button {
+        margin: 1rem 6px;
+        font-size: 14px;
+    }
+    }
+    
+    @media (max-width: 480px) {
+    .price_list .prc_item {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .price_list .prc_item h3 {
+        padding-left: 0;
+        width: 100%;
+        padding-top: 1rem;
+    }
+    }
+    
+    @media (max-width: 420px) {
+    .baner_owl .baner_item .item_content h2 {
+        font-size: 15px;
+    }
+    }
